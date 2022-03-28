@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to Generics");
+﻿using System;
+
+namespace Generics
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(MaxNumber.FindMax(04,10,14));
+        }
+    }
+}
