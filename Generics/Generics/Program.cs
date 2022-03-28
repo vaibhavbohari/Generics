@@ -6,7 +6,7 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MaxNumber.FindMax(04,10,14));
+            Console.WriteLine(MaxNumber.FindMax(10.08f,10.05f,14.08f));
         }
     }
 }
